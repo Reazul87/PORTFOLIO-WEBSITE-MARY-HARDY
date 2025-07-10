@@ -14,14 +14,14 @@ Game.agf.user
 
 # Backups
 Game.agf.bak
-backup_acsprset.spr
+backup_acs preset.spr
 
 # Memory dumps
 *.dmp
 
 # Temporary files
 # temporarily created during sprite or room background compression
-~aclzw.tmp
+~acl.tmp
 # temporary, main game data, before getting packed into exe
 game28.dta
 # temporary build of the game before being moved to Compiled/ folder

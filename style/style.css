@@ -1,0 +1,243 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1px 50px;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    font-weight: bold;
+    border: none;
+    font-size: 20px;
+    color: white;
+    width: 160px;
+    height: 64px;
+    /* padding: 18px 35px; */
+    margin-right: 20px;
+}
+
+.btn-primary-1 {
+    color: #FD6E0A;
+    font-weight: bold;
+    border: 1px solid #FD6E0A;
+    font-size: 20px;
+    width: 200px;
+    height: 64px;
+    border-radius: 5px;
+    /* padding: 18px 35px; */
+}
+
+.dark-2 {
+    color: #474747;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+    margin-left: 182px;
+}
+
+.open-sans-local {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 51px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.banner-greetings {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.banner-title {
+    font-weight: bold;
+    font-size: 85px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.banner-content {
+    max-width: 580px;
+}
+
+.banner-description {
+    font-size: 18px;
+}
+
+.bnr-picture {
+    width: 580px;
+
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 35px 0px 230px;
+}
+
+.header {
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    ;
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    margin: 0px;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+} 
+.bg-secondary{
+    background-color: #FFF8F3;
+}
+.section-description{
+ font-size: 18px;
+ color: #757575;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about{
+    border-radius: 10px;
+    padding: 131px 157px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.about-description{
+    font-weight: 600;
+}
+.about-title{
+   margin-bottom: 10px;
+}
+.text-center{
+    text-align: center;
+}
+.skill{
+    background-color: #FFFFFF;
+    width: 201px;
+    height: 240px;
+    border-radius: 5px;
+    padding: 20px 33px 30px 33px;
+    margin-top: 20px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-title{
+    margin-top: 29px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.resume-title{
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+.experience-sub-title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+.experience-description{
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+}
+.experience-title{
+    font-weight: bold;
+    font-size: 25px;
+    color: #474747;
+}
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume hr{
+    margin: 25px 0px;
+}
+.btn-cv{
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    height: 64px;
+    padding: 10px;
+    margin: 50px;
+}
+.Download-center{
+    text-align: center;
+}
+.footer-container{
+    display: flex;
+    gap: 120px;
+    padding: 80px 100px;
+
+}
+.footer-title{
+    font-size: 35px;
+    font-weight:bold;
+    color: #181818;
+}
+.footer-description{  
+    font-size: 16px;
+    font-weight: 400;
+    color: #474747;
+}
+.footer-column{
+width:45%;
+
+}
+.footer-container input[type="text"],.footer-container input[type="email"]{
+    height: 35px;
+    width: 99%;
+    border: none;
+    display: block;
+    font-size: 25px;
+    border-radius: 5px;
+    color: #757575;
+    background-color: #FFFFFF;
+    padding: 15px;
+    margin-bottom: 24px;
+}
+.footer-container textarea{
+    height: 180px;
+    width: 99%;
+    border: none;
+    display: block;
+    font-size: 25px;
+    border-radius: 5px;
+    color: #757575;
+    background-color: #FFFFFF;
+    padding: 15px;
+    margin-bottom: 24px;
+}

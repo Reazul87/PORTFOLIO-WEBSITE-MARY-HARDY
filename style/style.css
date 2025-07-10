@@ -19,7 +19,7 @@ nav {
 .btn-primary-1 {
     color: #FD6E0A;
     font-weight: bold;
-    border: none;
+    border: 1px solid #FD6E0A;
     font-size: 20px;
     height: 64px;
     border-radius: 5px;

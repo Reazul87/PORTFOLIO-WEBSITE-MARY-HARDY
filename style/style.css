@@ -12,21 +12,17 @@ nav {
     border: none;
     font-size: 20px;
     color: white;
-    width: 160px;
     height: 64px;
-    /* padding: 18px 35px; */
     margin-right: 20px;
 }
 
 .btn-primary-1 {
     color: #FD6E0A;
     font-weight: bold;
-    border: 1px solid #FD6E0A;
+    border: none;
     font-size: 20px;
-    width: 200px;
     height: 64px;
     border-radius: 5px;
-    /* padding: 18px 35px; */
 }
 
 .dark-2 {
